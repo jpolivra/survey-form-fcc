@@ -43,60 +43,19 @@ table {
 }
 
 /* Code Start */
-@font-face {
-    font-family: "Beau Regular";
-    src: url(../font/beaufortforlol-regular.otf);
+
+
+
+
+
+
+
+.form-container {
+	width: 100vw;
 }
 
-@font-face {
-    font-family: "Beau Bold";
-    src: url(../font/beaufortforlol-bold.otf);
-}
 
-.bregular {
-    font-family: "Beau Regular";
-}
 
-.bbold {
-    font-family: "Beau Bold";
-}
-
-body {
-    background-image: url(../img/background-image.png);
-    background-repeat: no-repeat;
-}
-
-#title {
-    text-align: center;
-    font-size: 39px;
-    color: #ffffff;
-    margin-top: 80px;
-    text-shadow: 5px 4px 4px rgba(0,0,0,0.78);
-    line-height: 0px;
-}
-
-#description {
-    text-align: center;
-    font-size: 25px;
-    color: #ffffff;
-    margin-top: 50px;
-    text-shadow: 5px 4px 4px rgba(0,0,0,0.78);
-    line-height: 0px;
-}
-
-.main{
-    max-width: 700px;
-    background-color: rgba( 0, 0, 0, 0.6);
-    margin: 0 auto;
-    margin-top: 50px;
-    border-radius: 5px;
-    padding-top: 40px;
-    padding-left: 40px;
-}
-
-.main form label {
-    display: block;
-}
 
 
 
