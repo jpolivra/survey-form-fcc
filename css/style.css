@@ -33,6 +33,7 @@ body {
 	text-align: center;
 	font-weight: 700;
 	padding-bottom: 10px;
+	text-shadow: 2px 2px 6px rgba(150, 150, 150, 1);
 }
 
 #description {
@@ -40,21 +41,145 @@ body {
 	color: #fff;
 	font-size: 18px;
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
+	text-shadow: 2px 2px 6px rgba(150, 150, 150, 1);
 }
 
 #survey-form {
 	width: 600px;
-	height: 1000px;
+	height: 2000px;
 	margin: 0 auto;
 	background: rgba(255, 255, 255, .1);
-	text-align: center;
 	border-radius: 5px;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
 	border-top: 1px solid rgba(255, 255, 255, .3);
 	border-left: 1px solid rgba(255, 255, 255, .3);
 	backdrop-filter: blur(10px);
+
+
 }
+
+form label#name-label, form label#number-label, form label#email-label {
+	font-size: 25px;
+	font-family: 'Inconsolata', monospace;
+	color: #fff;
+	text-transform: capitalize;
+	display: block;
+	text-align: left;
+	margin-left: 6%;
+	padding-bottom: 5px;
+	margin-top: 20px;
+}
+
+form#survey-form .input-text {
+	width: 88%;
+	margin-left: 6%;
+	outline: none;
+	border: none;
+	height: 40px;
+	background: rgba(0, 0, 0, .3);
+	color: rgba(255, 255, 255, .7);
+	box-shadow: 0 0 5px rgba(0, 0, 0, .3) inset;
+	font-size: 17px;
+	letter-spacing: 1px;
+	padding: 0 10px;
+}
+
+p#select-p {
+	font-size: 24px;
+	font-family: 'Inconsolata', monospace;
+	color: #fff;
+	text-transform: initial;
+	display: block;
+	text-align: left;
+	margin-left: 6%;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	max-width: 88%;
+}
+
+select#dropdown {
+	width: 88%;
+	margin-left: 6%;
+	outline: none;
+	height: 40px;
+	background: rgba(0, 0, 0, .3);
+	color: rgba(255, 255, 255, .7);
+	font-size: 17px;
+	padding: 0 10px;
+	border: none;
+}
+
+form select option {
+	    background-color: #000;
+}
+
+p#select-p2 {
+	font-size: 24px;
+	font-family: 'Inconsolata', monospace;
+	color: #fff;
+	text-transform: initial;
+	display: block;
+	text-align: left;
+	margin-left: 6%;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	max-width: 88%;
+}
+
+div#div-radio {
+	margin-left: 6%;
+	margin-top: 10px;
+}
+
+div#div-radio input {
+	width: 20px; height: 20px;
+}
+
+div#div-radio label {
+	font-size: 20px;
+	font-family: 'Inconsolata', monospace;
+	color: #fff;
+}
+
+div#div-radio label::after {
+	content: "";
+	display: block;
+	padding-bottom: 10px;
+}
+
+div#checkbox-div {
+	width: 88%;
+	margin-left: 6%;
+	margin-top: 20px;
+}
+
+div#checkbox-div input {
+	width: 20px; 
+	height: 20px; 
+}
+
+div#checkbox-div label {
+	font-size: 20px;
+	font-family: 'Inconsolata', monospace;
+	color: #fff;
+}
+
+div#checkbox-div label::after {
+	content: "";
+	display: block;
+	padding-bottom: 10px;
+}
+
+form textarea {
+	resize: none;
+
+}
+
+
+
+
+
 
 
 

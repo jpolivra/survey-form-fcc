@@ -10,21 +10,68 @@
 <body> 
 <div class="form-container">
     <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <p id="description">
+        Obrigado por nos ajudar a melhorar a plataforma</p>
     <form action="" id="survey-form">
-    <label for="name" id="name-label">name</label>
-    <input type="text" name="name" id="name">
+    <label for="name" id="name-label">nome</label>
+    <input class="input-text" type="text" name="name" id="name" placeholder="Insira seu nome" required>
     <label for="email" id="email-label">Email</label>
-    <input type="email" id="email">
-    <label for="number" id="number-label">Age</label>
-    <input type="number" id="number">
-
-    
-
-
-
-
-
+    <input  class="input-text" type="email" id="email" placeholder="Insira seu email" required>
+    <label for="number" id="number-label">Idade</label>
+    <input  class="input-text" type="number" id="number" min="1" max="150" placeholder="Idade" required>
+    <p id="select-p" >Qual opção se encaixa melhor com sua função atual?</p>
+    <select name="" id="dropdown">
+        <option disabled selected value id="disabled">Selecione uma função</option>
+        <option value="">Estudante</option>
+        <option value="">Trabalho Integral</option>
+        <option value="">Aprendiz Integral</option>
+        <option value="">Prefiro não dizer</option>
+        <option value="">Outro</option>
+    </select>
+    <p id="select-p2">Você recomendaria FreeCodeCamp para algum amigo?</p>
+    <div id="div-radio">
+    <input type="radio" id="definitivamente" value="definitivamente" name="recommend">
+    <label for="definitivamente">Definitivamente</label>
+    <input type="radio" id="talvez" value="talvez" name="recommend">
+    <label for="talvez">Talvez</label>
+    <input type="radio" id="nao-tenho-certeza" value="nao-tenho-certeza" name="recommend">
+    <label for="nao-tenho-certeza" id="last-label-radio">Não tenho certeza</label>
+    </div>
+    <p id="select-p" >Qual é o seu recurso favorito da FreeCodeCamp?</p>
+    <select name="" id="dropdown">
+        <option disabled selected value id="disabled">Selecione uma opção</option>
+        <option value="">Desafios</option>
+        <option value="">Projetos</option>
+        <option value="">Comunidade</option>
+        <option value="">Código Aberto</option>
+    </select>
+    <p id="select-p">O que você gostaria que fosse melhorado? (Marque todas as opções aplicáveis)</p>
+    <div id="checkbox-div">
+    <input type="checkbox" id="frontend" name="frontend">
+    <label for="frontend">Projetos front-end</label>
+    <input type="checkbox" id="backend" name="backend">
+    <label for="backend">Projetos back-end</label>
+    <input type="checkbox" id="dv" name="dv">
+    <label for="dv">Visualização de dados</label>
+    <input type="checkbox" id="desafios" name="desafios">
+    <label for="desafios">Desafios</label>
+    <input type="checkbox" id="open-source-c" name="open-source-c">
+    <label for="open-source-c">Comunidade de código aberto</label>
+    <input type="checkbox" id="gitter" name="gitter">
+    <label for="gitter">Salas de ajuda no gitter</label>
+    <input type="checkbox" id="videos" name="videos">
+    <label for="videos">Videos</label>
+    <input type="checkbox" id="encontros" name="encontros">
+    <label for="encontros">Encontros nas cidades</label>
+    <input type="checkbox" id="wiki" name="wiki">
+    <label for="wiki">Wiki</label>
+    <input type="checkbox" id="forum" name="forum">
+    <label for="forum">Forum</label>
+    <input type="checkbox" id="cursos-ad" name="cursos-ad">
+    <label for="cursos-ad">Cursos adicionais</label>
+    </div>
+    <p id="select-p">Algum comentário ou sugestão?</p>
+    <textarea name="suggestion" id="" cols="30" rows="10"></textarea>
     </form>
 </div>
 
