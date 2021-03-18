@@ -171,9 +171,21 @@ div#checkbox-div label::after {
 	padding-bottom: 10px;
 }
 
-form textarea {
+form textarea#comment {
 	resize: none;
+	outline: none;
+	width: 88%;
+	margin-left: 36px;
+	margin-top: 20px;
+	height: 150px;
+	padding: 10px 10px;
+	font-size: 18px;
+	font-family: 'Inconsolata', monospace;
+}
 
+.btn {
+	width: 200px;
+	cursor: pointer;
 }
 
 
