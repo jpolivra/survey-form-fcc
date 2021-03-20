@@ -47,7 +47,7 @@ body {
 
 #survey-form {
 	width: 600px;
-	height: 2000px;
+	height: auto;
 	margin: 0 auto;
 	background: rgba(255, 255, 255, .1);
 	border-radius: 5px;
@@ -183,9 +183,21 @@ form textarea#comment {
 	font-family: 'Inconsolata', monospace;
 }
 
+.btn-div {
+	display: flex;
+	width: 88%;
+	height: 80px;
+	background-color: transparent;
+	margin: 0 auto;
+	justify-content: center;
+}
+
 .btn {
 	width: 200px;
+	height: 40px;
 	cursor: pointer;
+	text-align: center;
+	margin-top: 20px;
 }
 
 
